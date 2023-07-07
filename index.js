@@ -32,3 +32,6 @@ Warrior.prototype.attack = function () {
 Healer.prototype.heal = function () {
     return `${this.name} casts ${this.spell}.`;
 }
+
+//Initialize individual character instances
+const hero1 = new Warrior('Bjorn', 1, 'axe');
