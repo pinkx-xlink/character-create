@@ -4,3 +4,9 @@ function Hero(name, level) {
     this.name = name;
     this.level = level;
 } 
+
+function Warrior(name, level, weapon) {
+    Hero.call(this, name, level);
+
+    this.weapon = weapon;
+}
