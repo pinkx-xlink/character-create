@@ -24,3 +24,7 @@ Object.setPrototypeOf(Healer.prototype, Hero.prototype);
 Hero.prototype.greet = function () {
     return`${this.name} says hello.`;
 }
+
+Warrior.prototype.attack = function () {
+    return `${this.name} attacks with the ${this.weapon}.`;
+}
