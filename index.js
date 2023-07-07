@@ -16,3 +16,11 @@ function Healer(name, level, spell) {
 
     this.spell = spell;
 }
+
+//Link prototypes and add prototype methods
+Object.setPrototypeOf(Warrior.prototype, Hero.prototype);
+Object.setPrototypeOf(Healer.prototype, Hero.prototype);
+
+Hero.prototype.greet = function () {
+    return`${this.name} says hello.`;
+}
