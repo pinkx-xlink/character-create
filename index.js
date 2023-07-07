@@ -28,3 +28,7 @@ Hero.prototype.greet = function () {
 Warrior.prototype.attack = function () {
     return `${this.name} attacks with the ${this.weapon}.`;
 }
+
+Healer.prototype.heal = function () {
+    return `${this.name} casts ${this.spell}.`;
+}
