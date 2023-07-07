@@ -35,3 +35,4 @@ Healer.prototype.heal = function () {
 
 //Initialize individual character instances
 const hero1 = new Warrior('Bjorn', 1, 'axe');
+const hero2 = new Healer('Kanin', 1, 'cure');
