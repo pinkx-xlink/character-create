@@ -10,3 +10,9 @@ function Warrior(name, level, weapon) {
 
     this.weapon = weapon;
 }
+
+function Healer(name, level, spell) {
+    Hero.call(this, name, level);
+
+    this.spell = spell;
+}
