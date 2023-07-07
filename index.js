@@ -22,7 +22,7 @@ Object.setPrototypeOf(Warrior.prototype, Hero.prototype);
 Object.setPrototypeOf(Healer.prototype, Hero.prototype);
 
 Hero.prototype.greet = function () {
-    return`${this.name} says hello.`;
+    return `${this.name} says hello.`;
 }
 
 Warrior.prototype.attack = function () {
@@ -36,3 +36,5 @@ Healer.prototype.heal = function () {
 //Initialize individual character instances
 const hero1 = new Warrior('Bjorn', 1, 'axe');
 const hero2 = new Healer('Kanin', 1, 'cure');
+
+hero1.attack();
